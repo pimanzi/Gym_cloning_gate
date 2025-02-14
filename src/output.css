@@ -1221,6 +1221,31 @@
       padding-inline: calc(var(--spacing) * 10);
     }
   }
+  .\33 xl\:px-20 {
+    @media (width >= 960px) {
+      padding-inline: calc(var(--spacing) * 20);
+    }
+  }
+  .\33 xl\:px-28 {
+    @media (width >= 960px) {
+      padding-inline: calc(var(--spacing) * 28);
+    }
+  }
+  .\33 xl\:px-30 {
+    @media (width >= 960px) {
+      padding-inline: calc(var(--spacing) * 30);
+    }
+  }
+  .\33 xl\:px-40 {
+    @media (width >= 960px) {
+      padding-inline: calc(var(--spacing) * 40);
+    }
+  }
+  .\33 xl\:px-44 {
+    @media (width >= 960px) {
+      padding-inline: calc(var(--spacing) * 44);
+    }
+  }
   .\33 xl\:px-\[100px\] {
     @media (width >= 960px) {
       padding-inline: 100px;
