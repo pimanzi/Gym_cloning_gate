@@ -694,6 +694,9 @@
   .h-\[40\%\] {
     height: 40%;
   }
+  .h-\[47px\] {
+    height: 47px;
+  }
   .h-\[50\%\] {
     height: 50%;
   }
@@ -750,6 +753,9 @@
   }
   .w-\[96\%\] {
     width: 96%;
+  }
+  .w-\[200px\] {
+    width: 200px;
   }
   .w-full {
     width: 100%;
@@ -1005,6 +1011,9 @@
   .pt-4 {
     padding-top: calc(var(--spacing) * 4);
   }
+  .pt-5 {
+    padding-top: calc(var(--spacing) * 5);
+  }
   .pt-6 {
     padding-top: calc(var(--spacing) * 6);
   }
@@ -1016,6 +1025,9 @@
   }
   .pt-14 {
     padding-top: calc(var(--spacing) * 14);
+  }
+  .pb-7 {
+    padding-bottom: calc(var(--spacing) * 7);
   }
   .pb-12 {
     padding-bottom: calc(var(--spacing) * 12);
