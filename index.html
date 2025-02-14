@@ -7,8 +7,47 @@
   </head>
   <body class="max-w-screen overflow-x-hidden">
     <header
-      class="3xl:flex 3xl:justify-between 3xl:bg-[#0c2340] 3xl:pr-[5vw] 3xl:pt-3"
+      class="3xl:flex 3xl:justify-between 3xl:bg-[#0c2340] 3xl:pr-[5vw] 3xl:pt-3 relative"
     >
+      <!-- absolute nav -->
+      <div class="bg-white shadow-sm absolute bottom-[-40px] z-50 right-20">
+        <div class="max-w-7xl mx-auto px-4">
+          <div class="flex items-center justify-between h-16">
+            <div class="flex items-center space-x-12">
+              <a href="#" class="text-gray-600">Academics</a>
+              <a href="#" class="text-gray-600">Admissions</a>
+              <a href="#" class="text-gray-600">Research</a>
+              <a href="#" class="text-gray-600">Global</a>
+              <a href="#" class="text-gray-600">Faith & Service</a>
+              <a
+                href="#"
+                class="text-gray-600 border border-r-2 border-l-0 border-t-0 border-b-0 border-[#555] pr-4"
+                >Campus Life</a
+              >
+            </div>
+            <div>
+              <button type="button" class="text-gray-600 hover:text-gray-900">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-search"
+                >
+                  <circle cx="11" cy="11" r="8" />
+                  <path d="m21 21-4.3-4.3" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div
         class="bg-[#0c2340] flex justify-center items-center pt-5 pb-7 3xl:block 3xl:px-[5vw]"
       >
