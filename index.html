@@ -6,9 +6,188 @@
     <link href="./src/output.css" rel="stylesheet" />
   </head>
   <body class="max-w-screen overflow-x-hidden">
-    <header>
-      <div class="bg-[#0c2340] flex justify-center items-center pt-5 pb-7">
-        <img src="/assets/logo.png" class="h-[47px] w-[200px] object-cover" />
+    <header
+      class="3xl:flex 3xl:justify-between 3xl:bg-[#0c2340] 3xl:pr-[5vw] 3xl:pt-3"
+    >
+      <div
+        class="bg-[#0c2340] flex justify-center items-center pt-5 pb-7 3xl:block 3xl:px-[5vw]"
+      >
+        <img
+          src="/assets/logo.png"
+          class="h-[47px] w-[200px] object-cover 3xl:object-none 3xl:w-[255px] 3xl:h-[77px]"
+        />
+      </div>
+
+      <nav class="pt-2">
+        <ul class="flex gap-10">
+          <li class="text-white font-bold text-[20px]">About</li>
+          <li
+            class="text-white font-bold text-[20px] border border-r-2 border-l-0 border-t-0 border-b-0 h-[90%] border-[#C1CDDD] pr-7"
+          >
+            Visit
+          </li>
+
+          <li class="text-white text-[20px] flex gap-1 items-center">
+            Give
+            <svg
+              height="20"
+              width="20"
+              version="1.1"
+              id="icon-external-link"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 1600 1000"
+            >
+              <path
+                fill="#C1CDDD"
+                d="M1362.5,46.9v250c0,41.9-50.7,62.5-80,33.1l-69.7-69.7L737.1,735.9c-18.3,18.3-48,18.3-66.3,0l-44.2-44.2
+                c-18.3-18.3-18.3-48,0-66.3l475.6-475.6L1032.5,80c-29.4-29.4-8.6-80,33.1-80h250C1341.5,0,1362.5,21,1362.5,46.9z M1032.5,528.9
+                l-31.2,31.2c-8.8,8.8-13.7,20.7-13.7,33.1V875h-625V250h515.6c12.4,0,24.4-4.9,33.1-13.7l31.2-31.2c29.5-29.5,8.6-80-33.1-80H331.2
+                c-51.8,0-93.8,42-93.8,93.8v687.5c0,51.8,42,93.8,93.8,93.8h687.5c51.8,0,93.8-42,93.8-93.8V562
+                C1112.5,520.3,1062,499.4,1032.5,528.9z"
+              />
+            </svg>
+          </li>
+          <li class="text-white text-[20px] flex gap-1 items-center">
+            Alumni
+            <svg
+              height="20"
+              width="20"
+              version="1.1"
+              id="icon-external-link"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 1600 1000"
+            >
+              <path
+                fill="#C1CDDD"
+                d="M1362.5,46.9v250c0,41.9-50.7,62.5-80,33.1l-69.7-69.7L737.1,735.9c-18.3,18.3-48,18.3-66.3,0l-44.2-44.2
+                c-18.3-18.3-18.3-48,0-66.3l475.6-475.6L1032.5,80c-29.4-29.4-8.6-80,33.1-80h250C1341.5,0,1362.5,21,1362.5,46.9z M1032.5,528.9
+                l-31.2,31.2c-8.8,8.8-13.7,20.7-13.7,33.1V875h-625V250h515.6c12.4,0,24.4-4.9,33.1-13.7l31.2-31.2c29.5-29.5,8.6-80-33.1-80H331.2
+                c-51.8,0-93.8,42-93.8,93.8v687.5c0,51.8,42,93.8,93.8,93.8h687.5c51.8,0,93.8-42,93.8-93.8V562
+                C1112.5,520.3,1062,499.4,1032.5,528.9z"
+              />
+            </svg>
+          </li>
+          <li class="text-white text-[20px] flex gap-1 items-center">
+            Athletics
+            <svg
+              height="20"
+              width="20"
+              version="1.1"
+              id="icon-external-link"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 1600 1000"
+            >
+              <path
+                fill="#C1CDDD"
+                d="M1362.5,46.9v250c0,41.9-50.7,62.5-80,33.1l-69.7-69.7L737.1,735.9c-18.3,18.3-48,18.3-66.3,0l-44.2-44.2
+                c-18.3-18.3-18.3-48,0-66.3l475.6-475.6L1032.5,80c-29.4-29.4-8.6-80,33.1-80h250C1341.5,0,1362.5,21,1362.5,46.9z M1032.5,528.9
+                l-31.2,31.2c-8.8,8.8-13.7,20.7-13.7,33.1V875h-625V250h515.6c12.4,0,24.4-4.9,33.1-13.7l31.2-31.2c29.5-29.5,8.6-80-33.1-80H331.2
+                c-51.8,0-93.8,42-93.8,93.8v687.5c0,51.8,42,93.8,93.8,93.8h687.5c51.8,0,93.8-42,93.8-93.8V562
+                C1112.5,520.3,1062,499.4,1032.5,528.9z"
+              />
+            </svg>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="flex justify-around py-4 3xl:hidden">
+        <!-- home -->
+        <div class="flex flex-col items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-house"
+          >
+            <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+            <path
+              d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+            />
+          </svg>
+
+          <p>Home</p>
+        </div>
+
+        <!-- contact -->
+
+        <div class="flex flex-col items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-mail"
+          >
+            <rect width="20" height="16" x="2" y="4" rx="2" />
+            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+          </svg>
+
+          <p>Contact</p>
+        </div>
+
+        <!-- search -->
+
+        <div class="flex flex-col items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-search"
+          >
+            <circle cx="11" cy="11" r="8" />
+            <path d="m21 21-4.3-4.3" />
+          </svg>
+
+          <p>Search</p>
+        </div>
+
+        <!-- menu -->
+
+        <div class="flex flex-col items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-menu"
+          >
+            <line x1="4" x2="20" y1="12" y2="12" />
+            <line x1="4" x2="20" y1="6" y2="6" />
+            <line x1="4" x2="20" y1="18" y2="18" />
+          </svg>
+          <p>Menu</p>
+        </div>
       </div>
     </header>
     <!-- Hero section -->
